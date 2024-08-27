@@ -1,0 +1,29 @@
+name: flutter_application_2
+description: A simple Flutter app for day to day tasks
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  http: ^1.2.2
+  charts_flutter: ^0.12.0
+  table_calendar: ^3.0.0
+  flutter_application_1: ^0.0.2
+  mailer: ^6.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
