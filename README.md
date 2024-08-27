@@ -8,8 +8,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Integration](#api-integration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## **Features**
 
