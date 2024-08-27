@@ -1,65 +1,38 @@
-DailySync
-DailySync is an all-in-one productivity app designed to help users manage their daily routine efficiently. The app integrates various essential tools like Quotes, Weather, Steps Tracker, Sleep Tracker, Calendar, Diary, and Exercise Log into a seamless experience. Built using the Flutter framework, DailySync offers cross-platform compatibility with a focus on user experience and data security.
+# **DailySync**
 
-Table of Contents
-Features
-Installation
-Usage
-API Integration
-Security
-Contributing
-License
-Features
-Login Interface: Secure OTP-based authentication.
-Quotes Widget: Daily motivational quotes with options for customization.
-Weather Widget: Real-time weather updates based on user location.
-Steps Tracker: Monitors daily step count.
-Sleep Tracker: Track sleep duration and quality.
-Calendar Widget: View upcoming events and tasks.
-Diary: Secure and searchable diary entries.
-Exercise Log: Record and track workout routines.
-Installation
-Prerequisites
-Flutter SDK: Install Flutter
-Dart SDK (included with Flutter)
-Steps
-Clone the repository:
+**DailySync** is a basic demo of an all-in-one productivity app, developed as part of a college project. The app is designed to help users manage their daily routine by integrating essential tools like Quotes, Weather, Steps Tracker, Sleep Tracker, Calendar, Diary, and Exercise Log into a unified experience. Built using the Flutter framework, DailySync emphasizes simplicity and ease of use.
 
-bash
-Copy code
-git clone https://github.com/yourusername/dailysync.git
-cd dailysync
-Install dependencies:
+## **Table of Contents**
 
-bash
-Copy code
-flutter pub get
-Run the app:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Integration](#api-integration)
+- [Contributing](#contributing)
+- [License](#license)
 
-bash
-Copy code
-flutter run
-Usage
-Login: Enter your email to receive an OTP and authenticate.
-Navigate: Use the bottom navigation bar to switch between the Diary and Exercise Log.
-Interact: Explore the widgets on the Home Page to access quotes, weather, steps, sleep data, and calendar events.
-API Integration
-DailySync uses the following API for data integration:
+## **Features**
 
-Weather API: Fetches real-time weather information.
-Quotes API: Provides daily motivational quotes.
-Challenges Addressed
-Real-Time Data Synchronization: Ensures consistent data across all widgets.
-Error Handling: Robust mechanisms to handle API failures.
-Rate Limiting: Efficiently manages API calls to adhere to rate limits.
-Security
-Data Encryption: All sensitive user data, including diary entries and health logs, is encrypted to ensure privacy.
-Secure Authentication: OTP-based login to prevent unauthorized access.
-Contributing
-Contributions are welcome! Please follow these steps:
+- **Login Interface**: Basic OTP-based authentication for demo purposes.
+- **Quotes Widget**: Displays daily motivational quotes.
+- **Weather Widget**: Provides basic real-time weather updates.
+- **Steps Tracker**: Demonstrates tracking of daily steps.
+- **Sleep Tracker**: Simulates tracking sleep duration and quality.
+- **Calendar Widget**: Shows upcoming events and tasks.
+- **Diary**: Allows basic diary entries.
+- **Exercise Log**: Simple interface to log workouts.
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+## **Installation**
+
+### **Prerequisites**
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK (included with Flutter)
+
+### **Steps**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/dailysync.git
+   cd dailysync
