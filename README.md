@@ -35,22 +35,22 @@
    ```bash
    git clone https://github.com/yourusername/dailysync.git
    cd dailysync
- **Install dependencies:**
-flutter pub get
+   flutter pub get
+ 
 ### **Usage**
 
-**Login**: Enter a demo email to receive a predefined OTP for authentication.
-**Navigate**: Use the bottom navigation bar to switch between the Diary and Exercise Log.
-**Interact**: Explore the widgets on the Home Page to view quotes, weather updates, steps, sleep data, and calendar events.
+-**Login**: Enter a demo email to receive a predefined OTP for authentication.
+-**Navigate**: Use the bottom navigation bar to switch between the Diary and Exercise Log.
+-**Interact**: Explore the widgets on the Home Page to view quotes, weather updates, steps, sleep data, and calendar events.
 
 ## **API Integration**
 
-*DailySync* uses basic API integration to demonstrate the following features:
+-*DailySync* uses basic API integration to demonstrate the following features:
 
-**Weather API**: Fetches simple, real-time weather information.
-**Quotes API**: Provides daily motivational quotes.
+-**Weather API**: Fetches simple, real-time weather information.
+-**Quotes API**: Provides daily motivational quotes.
 
 ## **Challenges Addressed**
 
-**Real-Time Data Synchronization**: Demonstrates how data can be kept consistent across widgets.
-**Error Handling**: Basic error handling to manage API failures and ensure a smooth demo experience.
+-**Real-Time Data Synchronization**: Demonstrates how data can be kept consistent across widgets.\n
+-**Error Handling**: Basic error handling to manage API failures and ensure a smooth demo experience.
