@@ -37,8 +37,7 @@
    cd dailysync
  **Install dependencies:**
 flutter pub get
-```bash
-**Usage**
+### **Usage**
 
 **Login**: Enter a demo email to receive a predefined OTP for authentication.
 **Navigate**: Use the bottom navigation bar to switch between the Diary and Exercise Log.
