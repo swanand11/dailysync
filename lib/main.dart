@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/calender.dart';
-import 'package:flutter_application_2/diary.dart';
-import 'package:flutter_application_2/exercisewidget.dart';
-import 'package:flutter_application_2/landing_page.dart';
-import 'package:flutter_application_2/moodtracker.dart';
+import 'calender.dart';
+import 'diary.dart';
+import 'exercisewidget.dart';
+import 'landing_page.dart';
+import 'moodtracker.dart';
 import 'qoute_widget.dart'; 
 import 'weather_widget.dart';
 import 'todolist.dart';
