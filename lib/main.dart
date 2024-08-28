@@ -37,7 +37,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
-  bool _notificationsEnabled = true; // Variable to store the state of notifications
+  bool _notificationsEnabled = true; 
 
   static final List<Widget> _widgetOptions = <Widget>[
     CustomHomePageLayout(),
@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       _notificationsEnabled = value;
     });
-    // You can add code here to enable/disable actual notifications in your app
+    
   }
 
   void _showPopupDialog(BuildContext context, String title, String content) {
