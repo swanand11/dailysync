@@ -10,13 +10,12 @@ class _SleepPatternWidgetState extends State<SleepPatternWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // Determine the maximum value for scaling
     double maxValue = _sleepData.reduce((a, b) => a > b ? a : b);
 
     return Container(
       padding: EdgeInsets.all(16.0),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 53, 92, 102), // Background color
+        color: Color.fromARGB(255, 53, 92, 102), 
         borderRadius: BorderRadius.circular(8.0),
         boxShadow: [
           BoxShadow(
@@ -40,7 +39,7 @@ class _SleepPatternWidgetState extends State<SleepPatternWidget> {
           ),
           SizedBox(height: 10),
           Container(
-            height: 200, // Height of the graph container
+            height: 200, 
             child: CustomPaint(
               painter: SleepGraphPainter(_sleepData, maxValue),
               child: Container(),
@@ -62,7 +61,7 @@ class SleepGraphPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final Paint barPaint = Paint()..color = Colors.blue;
 
-    // Add padding to the left for the labels
+    
     final double paddingLeft = 40.0;
     final double barWidth = (size.width - paddingLeft) / (sleepData.length * 2);
 
@@ -91,7 +90,7 @@ class SleepGraphPainter extends CustomPainter {
       textDirection: TextDirection.ltr,
     );
 
-    double step = maxValue / 5; // Number of reference lines
+    double step = maxValue / 5; 
     for (int i = 0; i <= 5; i++) {
       double y = size.height - (size.height / 5 * i);
       canvas.drawLine(Offset(paddingLeft, y), Offset(size.width, y), linePaint);
@@ -106,7 +105,7 @@ class SleepGraphPainter extends CustomPainter {
       );
       textPainter.layout();
 
-      // Adjusted the x-offset to move the labels further to the left
+      
       textPainter.paint(canvas, Offset(paddingLeft - 30, y - textPainter.height / 2));
     }
   }

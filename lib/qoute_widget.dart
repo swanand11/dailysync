@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'quote_service.dart'; // Import the quote service
+import 'quote_service.dart'; 
 
 class QuoteWidget extends StatefulWidget {
   @override

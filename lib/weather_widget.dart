@@ -30,8 +30,8 @@ class _WeatherWidgetState extends State<WeatherWidget> {
           return Text('Error: ${snapshot.error}');
         } else if (snapshot.hasData) {
           var data = snapshot.data!;
-          var temp = data['current']['temp_c']; // Adjusted for WeatherAPI
-          var condition = data['current']['condition']['text']; // Adjusted for WeatherAPI
+          var temp = data['current']['temp_c']; 
+          var condition = data['current']['condition']['text']; 
           return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

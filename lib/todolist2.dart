@@ -37,7 +37,7 @@ class _ToDoListState extends State<ToDoList2> {
     if (_controller.text.isNotEmpty) {
       setState(() {
         _tasks.add(_controller.text);
-        _completed.add(false); // Add a new entry for completion status
+        _completed.add(false); 
         _controller.clear();
       });
     }
@@ -45,14 +45,14 @@ class _ToDoListState extends State<ToDoList2> {
 
   void _toggleTask(int index) {
     setState(() {
-      _completed[index] = !_completed[index]; // Toggle completion status
+      _completed[index] = !_completed[index];
     });
   }
 
   void _deleteTask(int index) {
     setState(() {
       _tasks.removeAt(index);
-      _completed.removeAt(index); // Remove corresponding completion status
+      _completed.removeAt(index); 
     });
   }
 

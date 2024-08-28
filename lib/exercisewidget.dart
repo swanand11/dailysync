@@ -33,7 +33,7 @@ class _ExerciseLogWidgetState extends State<ExerciseLogWidget> {
     return Container(
       padding: EdgeInsets.all(16.0),
       decoration: BoxDecoration(
-        color: Color(0xFFFFE0B2), // Pastel orange background color
+        color: Color(0xFFFFE0B2), 
         borderRadius: BorderRadius.circular(8.0),
         boxShadow: [
           BoxShadow(
@@ -62,7 +62,7 @@ class _ExerciseLogWidgetState extends State<ExerciseLogWidget> {
               border: OutlineInputBorder(),
             ),
             inputFormatters: [
-              FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z\s]')), // Only allows alphabets and spaces
+              FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z\s]')), 
             ],
           ),
           SizedBox(height: 10),
@@ -74,7 +74,7 @@ class _ExerciseLogWidgetState extends State<ExerciseLogWidget> {
             ),
             keyboardType: TextInputType.number,
             inputFormatters: [
-              FilteringTextInputFormatter.digitsOnly, // Only allows numbers
+              FilteringTextInputFormatter.digitsOnly, 
             ],
           ),
           SizedBox(height: 10),
